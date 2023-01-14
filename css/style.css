@@ -398,4 +398,6 @@ footer .right .icons i {
 }
 footer .right .icons i:hover{
   color : var(--pink-color);
+  border: 2px solid var(--pink-color);
+}
 /* End footer  */
