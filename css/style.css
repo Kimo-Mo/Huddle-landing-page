@@ -12,11 +12,11 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  transition: all 0.1s linear;
-  -webkit-transition: all 0.1s linear;
-  -moz-transition: all 0.1s linear;
-  -ms-transition: all 0.1s linear;
-  -o-transition: all 0.1s linear;
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
 }
 html {
   scroll-behavior: smooth;
@@ -396,4 +396,6 @@ footer .right .icons i {
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
 }
+footer .right .icons i:hover{
+  color : var(--pink-color);
 /* End footer  */
